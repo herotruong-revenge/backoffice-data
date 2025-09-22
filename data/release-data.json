@@ -21,7 +21,7 @@
     "version": "1.0.786.1",
     "date": "29 August 2025",
     "features": [
-      "Implemented significant database query optimizations for the following reports: (Lấy Currency = ARS)"
+      "Implemented significant database query optimizations for the following reports"
     ],
     "fixBugs": [
       "Resolved an issue within the Promotion function."
