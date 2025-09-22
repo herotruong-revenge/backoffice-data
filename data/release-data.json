@@ -1,5 +1,16 @@
 [
   {
+    "version": "1.0.816.1",
+    "date": "22 September 2025",
+    "features": [
+      "Enhanced promotion features with improved reward assignment and tournament prize setup."
+    ],
+    "fixBugs": [
+      "Fixed some minor UI inconsistencies in the dashboard.",
+      "Resolved small issues with date range filters for reports."
+    ]
+  },
+  {
     "version": "1.0.802.1",
     "date": "5 September 2025",
     "features": [
