@@ -1,15 +1,355 @@
 [
   {
-    "version": "2.1.0",
-    "date": "2024-09-22",
+    "version": "1.0.802.1",
+    "date": "5 September 2025",
     "features": [
-      "Enhanced dashboard analytics",
-      "Multi-language support", 
-      "Real-time notifications"
+      "Implement a copy link functionality to obtain links for TXNs in the Bets and Player Record Reports."
     ],
     "fixBugs": [
-      "Fixed timeline display on mobile",
-      "Resolved translation loading issues"
+      "Fix some minor bugs."
+    ]
+  },
+  {
+    "version": "1.0.792.1",
+    "date": "3 September 2025",
+    "features": [
+      "Implemented significant database query optimizations for the following reports"
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.786.1",
+    "date": "29 August 2025",
+    "features": [
+      "Implemented significant database query optimizations for the following reports: (Lấy Currency = ARS)"
+    ],
+    "fixBugs": [
+      "Resolved an issue within the Promotion function."
+    ]
+  },
+  {
+    "version": "1.0.768.1",
+    "date": "25 August 2025",
+    "features": [
+      "Implement a totalDeposit field for the agent detail view",
+      "Improve the performance and efficiency of the database query used to fetch credit information"
+    ],
+    "fixBugs": [
+      "Resolved an issue within the Promotion function.",
+      "Fixed a bug that prevented certain active Operators from appearing when the 'Show Operator With Active Only' filter was enabled."
+    ]
+  },
+  {
+    "version": "1.0.751.5",
+    "date": "15 August 2025",
+    "features": [
+      "Optimaze Settlement report page",
+      "Enable bulk promotion assignment for multiple players simultaneously."
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.744.1",
+    "date": "14 August 2025",
+    "features": [
+      "Optimaze Settlement report page"
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.734.1",
+    "date": "8 August 2025",
+    "features": [
+      "Block Players",
+      "Weekly/Monthly Report Upgrade"
+    ],
+    "fixBugs": [
+      "Fix duplicate bet/winning amount in Player Summary Report"
+    ]
+  },
+  {
+    "version": "1.0.715.1",
+    "date": "6 August 2025",
+    "features": [
+      "Implemented functionality for Super Admin to create & assign promotions"
+    ],
+    "fixBugs": [
+      "Resolved issues in Promotions module"
+    ]
+  },
+  {
+    "version": "1.0.713.1",
+    "date": "5 August 2025",
+    "features": [
+      "Add user modification logging to the User Detail page"
+    ],
+    "fixBugs": [
+      "Fix Role Permissions for Support Account Creation",
+      "Fix Bet Type Filter in Player Record Report"
+    ]
+  },
+  {
+    "version": "1.0.703.1",
+    "date": "4 August 2025",
+    "features": [
+      "Add new Role - Staff"
+    ],
+    "fixBugs": [
+      "Fix issue in Promotion"
+    ]
+  },
+  {
+    "version": "1.0.699.1",
+    "date": "2 August 2025",
+    "features": [
+      "Add Filter Type for Player Record Report - Game Daily Report - Game Weekly Report - Game Monthly Report",
+      "Consider _ek as free key",
+      "Settlenment report: done",
+      "Game Operator Report: done",
+      "Operator Weekly Report: Done",
+      "Game Weekly Report: Done"
+    ],
+    "fixBugs": [
+      "Fix issue in Promotion",
+      "Fix issue in Weekly/Monthly Report",
+      "Fix some minor issue"
+    ]
+  },
+  {
+    "version": "1.0.677.1",
+    "date": "30 July 2025",
+    "features": [
+      "Add sorting support for Weekly/Monthly Reports",
+      "Create a standardized template for exporting ALL Weekly/Monthly Report data"
+    ],
+    "fixBugs": [
+      "Fix issue in Promotion",
+      "Fix issue in Weekly/Monthly Report"
+    ]
+  },
+  {
+    "version": "1.0.633.1",
+    "date": "23 July 2025",
+    "features": [
+      "Implement new Operator Weekly Report modules",
+      "Implement new Game Weekly Report modules",
+      "Implement 'Support' as a new user role in the system",
+      "Enhance bet type validation to comply with updated GSC requirements",
+      "Extend pagination capacity to 10,000 records per page"
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.616.1",
+    "date": "17 July 2025",
+    "features": [
+      "Add a new tab - Providers: Done",
+      "Add a new function - Assign Providers to Operator: Done",
+      "Add validation for special characters when creating an operator: Done",
+      "Add validation for special characters when creating an agent: Done",
+      "Add a flow to update the rate in the Currency tab: Done",
+      "Change the flow for calculating Income USD using the rate in the Currency tab: Done",
+      "Add new flow to auto update currency rate: Đone (30min/refresh)"
+    ],
+    "fixBugs": [
+      "Duplicate API calls occur in the nested table",
+      "Displays '@adminjs/relations|_junctionRecordMissing'",
+      "Some minor bug"
+    ]
+  },
+  {
+    "version": "1.0.601.1",
+    "date": "13 July 2025",
+    "features": [
+      "Modify the sorting mechanism for the table list",
+      "Change the table structure of the User Operator and Currency tables to synchronize with other tables",
+      "Add Income USD for Player Summary Report and Player Record Report",
+      "Improve Multi-tab functionality for Back Office",
+      "Optimaze Multi-tab functionality for Back Office",
+      "Add new tab - System Report to Multi-tab functionality",
+      "Enhance UX/UI for Multi-tab functionality",
+      "Enhance UX for search function"
+    ],
+    "fixBugs": [
+      "Some minor Bug"
+    ]
+  },
+  {
+    "version": "1.0.573.1",
+    "date": "10 July 2025",
+    "features": [
+      "Implement an option to choose the number of rows displayed in Game Operator Report: Done",
+      "Implement an option to choose the number of rows displayed in Game Daily Report: Done",
+      "Optimaze query in Settlement Report",
+      "Improve System Report Page"
+    ],
+    "fixBugs": [
+      "Fix some bug in Perpage function: Done",
+      "Fix some bug in Player Summary Report"
+    ]
+  },
+  {
+    "version": "1.0.563.1",
+    "date": "9 July 2025",
+    "features": [
+      "Implement an option to choose the number of rows displayed in the Account - Operator section.",
+      "Implement an option to choose the number of rows displayed in the Account - User section.",
+      "Implement an option to choose the number of rows displayed in the System - Currency.",
+      "Multi-tab functionality for Back Office.",
+      "Add New Page - Transaction Report – System Report."
+    ],
+    "fixBugs": [
+      "Fix some minor bugs."
+    ]
+  },
+  {
+    "version": "1.0.534.1",
+    "date": "07 July 2025",
+    "features": [
+      "Add an Operator link to the Game search in the Game Operator Report and Game Daily Report.",
+      "A new formula for calculating and determining Buy_Freespin.",
+      "Optimaze Export function for Player Record Report."
+    ],
+    "fixBugs": [
+      "Fix some minor bugs."
+    ]
+  },
+  {
+    "version": "1.0.510.1",
+    "date": "3 July 2025",
+    "features": [
+      "Update Sort BE for all nested tables.",
+      "Add second for search with date range.",
+      "Add new page - Game Operator Report.",
+      "Add new page - Game Daily Report.",
+      "Add new page - Change Log."
+    ],
+    "fixBugs": [
+      "Fix some minor bugs."
+    ]
+  },
+  {
+    "version": "1.0.484.1",
+    "date": "2 July 2025",
+    "features": [
+      "Add 4 tick boxes for nested table of Settlement Report.",
+      "[Search Game] Update to include time input from the frontend for game searches.",
+      "Update datepicker to start on Monday.",
+      "Search by similar name for username search in User Assignment view."
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.457.1",
+    "date": "1 July 2025",
+    "features": [
+      "Update to display the game code in the Games search when the game does not have a game name.",
+      "Update to display 'No Data' when a TXN search yields no results on the Bets page."
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.452.1",
+    "date": "30 June 2025",
+    "features": [
+      "Update the search to be similar to Player ID in the Player Summary Report.",
+      "Optimize code search 'like' for Player Summary Report.",
+      "Improve UI mobile for Settlement Report.",
+      "Add new filter with GAMES for Player Summary Report (Search game with Player).",
+      "Add error popup for Withdraw with account System.",
+      "Add new format for Export All of Settlement Report."
+    ],
+    "fixBugs": [
+      "Fix export all limit to 10001 rows.",
+      "Fix find game for search 'like' player-id for Player Summary Report.",
+      "Fix withdraw/deposit for agent linked with Operator Inactive.",
+      "Fix bug in Export All."
+    ]
+  },
+  {
+    "version": "1.0.441.1",
+    "date": "29 June 2025",
+    "features": [
+      "Update the search to be similar to Player ID in the Player Summary Report."
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.439.1",
+    "date": "28 June 2025",
+    "features": [
+      "Update new query for Settlement Report."
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.433.1",
+    "date": "26 June 2025",
+    "features": [
+      "Improve Link Credit between Agent and Operator in User Assignment and User Operator.",
+      "Implement sorting functionality.",
+      "Improve performance of Bets page."
+    ],
+    "fixBugs": [
+      "Fix 500 error in Table 2 when logging in with Agent account (Settlement).",
+      "Fix usability issues with Bets page."
+    ]
+  },
+  {
+    "version": "1.0.422.1",
+    "date": "25 June 2025",
+    "features": [
+      "Add hyperlink for TXN ID in Player Record Report.",
+      "Change Game Code to Game Name in Player Record Report, including belonging OC.",
+      "Add dropdown for Game filter by Player ID in Player Record Report, default set to 'Game = all'.",
+      "Make Player ID mandatory for search in Player Record Report.",
+      "Implement case-insensitive Operator creation.",
+      "Implement case-insensitive login for accounts (e.g., TD and td).",
+      "Implement case-insensitive User creation.",
+      "Link Credit between Agent and Operator.",
+      "Implement Export to Excel functionality for data (Today, Last Week, This Month)."
+    ],
+    "fixBugs": [
+      "Fix bug where time in date range selection was not selectable."
+    ]
+  },
+  {
+    "version": "1.0.398.1",
+    "date": "24 June 2025",
+    "features": [
+      "Add new Bets page.",
+      "Support display of Unassigned Operator.",
+      "Add clickable hyperlinks in three Report pages.",
+      "Add Filter search Player in Player Summary.",
+      "Restrict Bets search to only TXN, removing Select Date Range, Select Operator, Player ID, and Game Name."
+    ],
+    "fixBugs": [
+      "Fix bug with Lose action in some OCs.",
+      "Fix pagination issue in User -> View User -> Assign User (only page 1 displayed when more than 2 pages)."
+    ]
+  },
+  {
+    "version": "1.0.380.1",
+    "date": "21 June 2025",
+    "features": [
+      "Set default search setting to display 'All' tag.",
+      "Update title based on user account level after selection (e.g., System - Super Admin Summary, Super Admin - Admin Summary).",
+      "Display account's title in Selected User section (e.g., superadmincheck - Super Admin).",
+      "Enable clicking account name in Selected User section to navigate back to previous table (e.g., from Super Admin - Admin - Master - Operator, clicking Admin returns to Admin Summary page).",
+      "Rename Currency Summary to Currency Summary Overall.",
+      "Verify color coding for Income and Income (USD), ensuring consistent display (e.g., value 0 shown in green or black)."
+    ],
+    "fixBugs": []
+  },
+  {
+    "version": "1.0.379.1",
+    "date": "20 June 2025",
+    "features": [
+      "Add color for Income (USD).",
+      "Remove checkbox 'Show Unassign Operator' from another page (Settlement Report)."
+    ],
+    "fixBugs": [
+      "Fix Assign User functionality in Super Admin account."
     ]
   }
 ]
