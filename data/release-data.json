@@ -1,0 +1,15 @@
+[
+  {
+    "version": "2.1.0",
+    "date": "2024-09-22",
+    "features": [
+      "Enhanced dashboard analytics",
+      "Multi-language support", 
+      "Real-time notifications"
+    ],
+    "fixBugs": [
+      "Fixed timeline display on mobile",
+      "Resolved translation loading issues"
+    ]
+  }
+]
