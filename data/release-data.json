@@ -1,5 +1,24 @@
 [
   {
+    "version": "1.0.922.1",
+    "date": "17 October 2025",
+    "features": [
+      "Added Total Bet Amount, Total Win Amount, and Total Income in USD to Settlement Report.",
+      "Added Balance column to Player Record Report.",
+      "Added RTP column to Game Weekly/Monthly Report.",
+      "Optimized query performance for Bets Page.",
+      "Modified Operator creation process to include additional fields.",
+      "Linked Operator with Game Management.",
+      "Added new Group Operator page.",
+      "Added new Game Management page.",
+      "Added new Audit Log page.",
+      "Included Player ID in the History TXN popup."
+    ],
+    "fixBugs": [
+      "Resolved data issues in Game Weekly and Monthly Reports."
+    ]
+  },
+  {
     "version": "1.0.816.1",
     "date": "22 September 2025",
     "features": [
