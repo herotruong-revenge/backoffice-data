@@ -1,5 +1,19 @@
 [
   {
+    "version": "1.0.962.1",
+    "date": "24 October 2025",
+    "features": [
+      "Operator create/update: more info, better performance, supplier filter.",
+      "Tournaments: improved create/update flow.",
+      "Game Management: faster, OCs sorted by date, 'All Providers' filter.",
+      "Reports: round totals, add USD columns, export RTP as percent."
+    ],
+    "fixBugs": [
+      "Tournaments: leaderboard and history page size fixed to 10, hide action buttons in list view.",
+      "Minor bug fixes."
+    ]
+  },
+  {
     "version": "1.0.922.1",
     "date": "17 October 2025",
     "features": [
